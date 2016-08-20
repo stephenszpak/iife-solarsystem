@@ -13,13 +13,13 @@ var SolarSystem = (function(){
 			return planets;
 		},
 		setPlanets: function(newPlanet){
-			planets = newPlanet;
+			planets.push(newPlanet);
 		},
 		getActiveSpacecraft: function(){
 			return activeSpacecraft;
 		},
 		setActiveSpacecraft: function(newSpacecraft){
-			activeSpacecraft = newSpacecraft;
+			activeSpacecraft.push(newSpacecraft);
 		},
 		getPlanetsLandedOn: function(){
 			return planetsLandedOn;
